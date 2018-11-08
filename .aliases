@@ -29,3 +29,6 @@ fi
 
 # Allow for dotfiles to be updated
 alias update_dotfiles='cd ~ && curl -Lk# https://github.com/n8felton/dotfiles/tarball/master | tar --strip-components 1 -xz && source .bash_profile'
+
+# Help out windows users
+alias gpupdate='sudo managedsoftwareupdate'
